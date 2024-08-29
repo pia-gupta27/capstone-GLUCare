@@ -3,6 +3,8 @@
 ## Overview
 GLUCare is an innovative project aimed at developing a non-invasive glucose monitoring system using Near-Infrared (NIR) Spectroscopy. This device provides a painless alternative to traditional finger-pricking methods for diabetics and non-diabetics, enabling continuous and real-time blood glucose monitoring.
 
+Website : https://glu-care-website.vercel.app/
+
 ## Table of Contents
 1. [Overview](#overview)
 2. [Team Members](#team-members)
