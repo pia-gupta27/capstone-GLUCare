@@ -16,7 +16,10 @@ Website : https://glu-care-website.vercel.app/
 8. [Work Plan](#work-plan)
 9. [Key Features](#key-features)
 10. [Technologies Used](#technologies-used)
-11. [Outcomes](#outcomes)
+11. [Diagrams](#diagrams)
+12. [Circuit Simulation](#circuit-simulation)
+13. [Circuit Overview](#circuit-overview)
+14. [Outcomes](#outcomes)
 
 ## Team Members
 - Pia Gupta (102103394)
@@ -40,10 +43,10 @@ With 537 million people globally affected by diabetes, the need for non-invasive
 Our solution addresses the increasing diabetes cases, enhancing patient comfort and health monitoring.
 
 ## Project Objectives
-- Analyze and compare existing glucose monitoring technologies.
-- Design and implement a non-invasive device using NIR spectroscopy and Machine Learning.
-- Validate device performance against clinical invasive techniques.
-- Develop a web application for data visualization and management.
+- To analyse and compare existing state of the art technologies for glucose monitoring.
+- To design and implement a non-invasive device to monitor Blood Glucose levels using Machine learning.
+- To create the test data and validate the performance of the device by comparing with clinical invasive techniques.
+- To design and develop a web application to display the results.
 
 ## Methodology
 1. Research the relationship between skin properties and blood glucose molecules.
@@ -67,10 +70,10 @@ Our solution addresses the increasing diabetes cases, enhancing patient comfort 
 ![image](https://github.com/pia-gupta27/capstone-GLUCare/assets/138195849/fc735090-dcbe-4cd1-b2da-21089e4807f3)
 
 ## Key Features
-- Non-invasive and painless glucose monitoring.
+- Non-invasive and painless continous glucose monitoring.
 - Real-time data analysis using NIR spectroscopy.
-- Continuous monitoring capabilities.
-- User-friendly web application for data visualization and management.
+- LCD display for instant glucose readings.
+- User-friendly website for data visualization and tracking.
 
 ## Technologies Used
 - NIR Sensor
@@ -79,7 +82,34 @@ Our solution addresses the increasing diabetes cases, enhancing patient comfort 
 - Software Engineering Methodologies 
 - UI & UX Design
 
+## Diagrams
+
+**Block Diagram**
+![image](https://github.com/user-attachments/assets/f417d889-a859-4ddc-b8cc-28a41a6d2d27)
+
+**Component Diagram**
+![image](https://github.com/user-attachments/assets/e5e25cc4-2b6e-47f7-81e6-d5a8541d7096)
+
+**Use Case Diagram**
+![image](https://github.com/user-attachments/assets/93d2c592-7914-492d-9399-a37886106cb9)
+
+
+## Circuit Simulation
+
+![image](https://github.com/user-attachments/assets/c443fa89-972d-41c0-90d2-3c8c34ed4643)
+
+
+## Circuit Overview
+
+![image](https://github.com/user-attachments/assets/644a32ca-1715-4946-af98-34d9ced70b77)
+
+1. **Data Acquisition**: The NIR sensor measures glucose levels non-invasively by analyzing light absorption in the skin.
+2. **Data Processing**: The Arduino processes the sensor's raw data, converting it into readable glucose values.
+3. **Data Display & Transmission**: Results are shown on the LCD and transmitted to the website for remote access.
+4. **Web Access**: Users log in to a secure website to monitor glucose levels, track trends, and receive notifications.
+
 ## Outcomes
-- Development of a non-invasive NIR-based glucose monitoring device.
-- Validation of device accuracy through clinical trials.
-- Creation of a web application for user interaction and data management.
+- To develop an accurate and reliable non-invasive blood glucose monitoring device.
+- Validate the proposed system using current testing methods across different demographies. 
+- Develop a user-friendly web application which will track user's blood glucose level.
+
