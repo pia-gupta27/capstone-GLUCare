@@ -1,3 +1,0 @@
-Raspberry_pico on wokwi : https://wokwi.com/projects/400646536496443393
-
-Raspberry_pico_LDR on wokwi : https://wokwi.com/projects/400646536496443393
