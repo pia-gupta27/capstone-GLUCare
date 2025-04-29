@@ -101,12 +101,15 @@ Our solution addresses the increasing diabetes cases, enhancing patient comfort 
 
 ## Circuit Overview
 
-![image](https://github.com/user-attachments/assets/644a32ca-1715-4946-af98-34d9ced70b77)
+![image](https://github.com/user-attachments/assets/4fbe8a38-27e5-4174-8fa8-374e0343671f)
 
 1. **Data Acquisition**: The NIR sensor measures glucose levels non-invasively by analyzing light absorption in the skin.
 2. **Data Processing**: The Arduino processes the sensor's raw data, converting it into readable glucose values.
 3. **Data Display & Transmission**: Results are shown on the LCD and transmitted to the website for remote access.
 4. **Web Access**: Users log in to a secure website to monitor glucose levels, track trends, and receive notifications.
+
+![image](https://github.com/user-attachments/assets/25b6cd7c-48f3-46f7-bff5-4b328e436b7b)
+
 
 ## Outcomes
 - To develop an accurate and reliable non-invasive blood glucose monitoring device.
